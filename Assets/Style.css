@@ -207,7 +207,7 @@ button:hover {
     background-color: rgb(223, 230, 230);
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .section-title {
         display: flex;
         flex-wrap: wrap;
@@ -264,7 +264,7 @@ button:hover {
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .container {
         height: auto;
     }
@@ -273,6 +273,11 @@ button:hover {
         flex-direction: column;
         height: auto;
 
+    }
+
+    .title h1 {
+        width: 90%;
+        font-size: 22px;
     }
 
     .bloco {
